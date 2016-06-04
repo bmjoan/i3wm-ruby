@@ -1,0 +1,7 @@
+require "bundler/gem_tasks"
+
+require "rake/extensiontask"
+
+Rake::ExtensionTask.new("xkb") do |ext|
+  ext.lib_dir = "lib/xkb"
+end
