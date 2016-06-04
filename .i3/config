@@ -132,11 +132,9 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # switch to a named workspace
 bindsym $mod+t exec "/usr/bin/ruby --disable=gems,rubyopt ~/bin/i3-workspace-menu -- -i -fn $menufont"
-# bindsym $mod+t exec "/usr/bin/python ~/bin/i3-workspace-menu -- -i -fn $menufont"
 # bindsym $mod+g exec "i3-input -f $font -F 'workspace %s' -P 'workspace: ' > /dev/null"
 # move to a named workspace
 bindsym $mod+Shift+t exec "/usr/bin/ruby --disable=gems,rubyopt ~/bin/i3-workspace-menu -mv -- -i -fn $menufont"
-# bindsym $mod+Shift+t exec "/usr/bin/python ~/bin/i3-workspace-menu -mv -- -i -fn $menufont"
 # bindsym $mod+Shift+g exec "i3-input -f $font -F 'move container to workspace %s' -P 'move to workspace: ' > /dev/null"
 
 # reload the configuration file

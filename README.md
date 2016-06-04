@@ -5,6 +5,9 @@ Extensions & tweaks for i3 window manager (https://i3wm.org/) written in Ruby pr
 		current version implements X-keyboard layout indicator only
 		requires xkb extension, also available from this repo
 
+	 bin/i3-workspace-menu.rb
+		workspaces handler
+		switch to or move a client to a specified workspace
 
 Keyboard settings mimicking default layout of Emacs editor.
 
